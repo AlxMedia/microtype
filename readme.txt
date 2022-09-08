@@ -79,8 +79,8 @@ Header images
 Content images
 1. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
 2. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
-3. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
-4. https://stocksnap.io/photo/FLU1A9EK7E - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/693PZB7YZT - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
