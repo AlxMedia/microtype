@@ -1,0 +1,632 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Microtype\n"
+"POT-Creation-Date: 2022-09-08 20:10+0200\n"
+"PO-Revision-Date: 2018-09-21 21:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;number_format_i18n;date_i18n;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: functions/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-1: functions/kirki\n"
+
+#: comments.php:7
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:7
+msgid "1 Response"
+msgstr ""
+
+#: comments.php:7
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:10
+msgid "Comments"
+msgstr ""
+
+#: comments.php:11
+msgid "Pingbacks"
+msgstr ""
+
+#: footer.php:65
+msgid "Y"
+msgstr ""
+
+#: footer.php:65
+msgid "All Rights Reserved."
+msgstr ""
+
+#: footer.php:71
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:71
+msgid "https://wordpress.org"
+msgstr ""
+
+#: footer.php:71
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:85
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:86 functions/theme-options.php:52
+msgid "Header"
+msgstr ""
+
+#: functions.php:180
+msgid "Primary"
+msgstr ""
+
+#: functions.php:180
+msgid "Normal full width sidebar"
+msgstr ""
+
+#: functions.php:182 functions/theme-options.php:203
+msgid "Footer Ads"
+msgstr ""
+
+#: functions.php:182
+msgid "Footer ads area"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:184 functions.php:185 functions.php:186 functions.php:187
+msgid "Widgetized footer"
+msgstr ""
+
+#: functions.php:185
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:186
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:187
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:682
+msgid "Alx Extensions"
+msgstr ""
+
+#: functions.php:686
+msgid "Meta Box"
+msgstr ""
+
+#: functions.php:690
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: functions.php:694
+msgid "WP-PageNavi"
+msgstr ""
+
+#: functions/nav.php:170
+msgid "Expand Menu"
+msgstr ""
+
+#: functions/nav.php:212
+msgid "Toggle Child Menu"
+msgstr ""
+
+#: functions/nav.php:286 functions/nav.php:300
+#, php-format
+msgid "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+msgstr ""
+
+#: functions/nav.php:287
+msgid "Current Page:"
+msgstr ""
+
+#: functions/nav.php:301
+msgid "Current Page Parent"
+msgstr ""
+
+#: functions/theme-options.php:16
+msgid "AlxMedia"
+msgstr ""
+
+#: functions/theme-options.php:18
+msgid "View More Themes"
+msgstr ""
+
+#: functions/theme-options.php:23
+msgid "Like This Theme?"
+msgstr ""
+
+#: functions/theme-options.php:26
+msgid "Write a Review"
+msgstr ""
+
+#: functions/theme-options.php:35
+msgid "Theme Options"
+msgstr ""
+
+#: functions/theme-options.php:42
+msgid "General"
+msgstr ""
+
+#: functions/theme-options.php:47
+msgid "Blog"
+msgstr ""
+
+#: functions/theme-options.php:57
+msgid "Footer"
+msgstr ""
+
+#: functions/theme-options.php:62
+msgid "Social Links"
+msgstr ""
+
+#: functions/theme-options.php:67
+msgid "Styling"
+msgstr ""
+
+#: functions/theme-options.php:78
+msgid "Recommended Plugins"
+msgstr ""
+
+#: functions/theme-options.php:79
+msgid "Enable or disable the recommended plugins notice"
+msgstr ""
+
+#: functions/theme-options.php:87
+msgid "Enable Blog Heading"
+msgstr ""
+
+#: functions/theme-options.php:88
+msgid "Show heading on blog home"
+msgstr ""
+
+#: functions/theme-options.php:96
+msgid "Heading"
+msgstr ""
+
+#: functions/theme-options.php:97
+msgid "Your blog heading"
+msgstr ""
+
+#: functions/theme-options.php:105
+msgid "Subheading"
+msgstr ""
+
+#: functions/theme-options.php:106
+msgid "Your blog subheading"
+msgstr ""
+
+#: functions/theme-options.php:114
+msgid "Single - Comment Count"
+msgstr ""
+
+#: functions/theme-options.php:122
+msgid "Single - Author Bio"
+msgstr ""
+
+#: functions/theme-options.php:123
+msgid "Shows post author description, if it exists"
+msgstr ""
+
+#: functions/theme-options.php:131
+msgid "Single - Related Posts"
+msgstr ""
+
+#: functions/theme-options.php:132
+msgid "Shows randomized related articles below the post"
+msgstr ""
+
+#: functions/theme-options.php:136 functions/theme-options.php:150
+msgid "Disable"
+msgstr ""
+
+#: functions/theme-options.php:137
+msgid "Related by categories"
+msgstr ""
+
+#: functions/theme-options.php:138
+msgid "Related by tags"
+msgstr ""
+
+#: functions/theme-options.php:145
+msgid "Single - Post Navigation"
+msgstr ""
+
+#: functions/theme-options.php:146
+msgid "Shows links to the next and previous article"
+msgstr ""
+
+#: functions/theme-options.php:151
+msgid "Below content"
+msgstr ""
+
+#: functions/theme-options.php:158
+msgid "Header Search"
+msgstr ""
+
+#: functions/theme-options.php:159
+msgid "Header search button"
+msgstr ""
+
+#: functions/theme-options.php:167
+msgid "Header Social Links"
+msgstr ""
+
+#: functions/theme-options.php:168 functions/theme-options.php:229
+msgid "Social link icon buttons"
+msgstr ""
+
+#: functions/theme-options.php:176
+msgid "Profile Image"
+msgstr ""
+
+#: functions/theme-options.php:177
+msgid "Minimum width of 320px"
+msgstr ""
+
+#: functions/theme-options.php:185
+msgid "Profile Name"
+msgstr ""
+
+#: functions/theme-options.php:186
+msgid "Your name appears below the image"
+msgstr ""
+
+#: functions/theme-options.php:194
+msgid "Profile Description"
+msgstr ""
+
+#: functions/theme-options.php:195
+msgid "A short description of you"
+msgstr ""
+
+#: functions/theme-options.php:204
+msgid "Footer widget ads area"
+msgstr ""
+
+#: functions/theme-options.php:212
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: functions/theme-options.php:213
+msgid "Select columns to enable footer widgets. Recommended number: 3"
+msgstr ""
+
+#: functions/theme-options.php:228
+msgid "Footer Social Links"
+msgstr ""
+
+#: functions/theme-options.php:237
+msgid "Footer Logo"
+msgstr ""
+
+#: functions/theme-options.php:238
+msgid "Upload your custom logo image"
+msgstr ""
+
+#: functions/theme-options.php:246
+msgid "Footer Copyright"
+msgstr ""
+
+#: functions/theme-options.php:247
+msgid "Replace the footer copyright text"
+msgstr ""
+
+#: functions/theme-options.php:255
+msgid "Footer Credit"
+msgstr ""
+
+#: functions/theme-options.php:256
+msgid "Footer credit text"
+msgstr ""
+
+#: functions/theme-options.php:264
+msgid "Create Social Links"
+msgstr ""
+
+#: functions/theme-options.php:265
+msgid "Create and organize your social links"
+msgstr ""
+
+#: functions/theme-options.php:267
+msgid "Font Awesome names:"
+msgstr ""
+
+#: functions/theme-options.php:267 functions/theme-options.php:284
+msgid "View All"
+msgstr ""
+
+#: functions/theme-options.php:270
+msgid "social link"
+msgstr ""
+
+#: functions/theme-options.php:277
+msgid "Title"
+msgstr ""
+
+#: functions/theme-options.php:278
+msgid "Ex: Facebook"
+msgstr ""
+
+#: functions/theme-options.php:283
+msgid "Icon Name"
+msgstr ""
+
+#: functions/theme-options.php:284
+msgid "Font Awesome icons. Ex: fa-facebook "
+msgstr ""
+
+#: functions/theme-options.php:289
+msgid "Link"
+msgstr ""
+
+#: functions/theme-options.php:290
+msgid "Enter the full url for your icon button"
+msgstr ""
+
+#: functions/theme-options.php:295
+msgid "Icon Color"
+msgstr ""
+
+#: functions/theme-options.php:296
+msgid "Set a unique color for your icon (optional)"
+msgstr ""
+
+#: functions/theme-options.php:301
+msgid "Open in new window"
+msgstr ""
+
+#: functions/theme-options.php:310
+msgid "Dynamic Styles"
+msgstr ""
+
+#: functions/theme-options.php:311
+msgid "Turn on to use the styling options below"
+msgstr ""
+
+#: functions/theme-options.php:319
+msgid "Font"
+msgstr ""
+
+#: functions/theme-options.php:320
+msgid "Select font for the theme"
+msgstr ""
+
+#: functions/theme-options.php:324
+msgid "Titillium Web, Latin (Self-hosted)"
+msgstr ""
+
+#: functions/theme-options.php:325
+msgid "Titillium Web, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:326
+msgid "Droid Serif, Latin"
+msgstr ""
+
+#: functions/theme-options.php:327
+msgid "Source Sans Pro, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:328
+msgid "Lato, Latin"
+msgstr ""
+
+#: functions/theme-options.php:329
+msgid "Raleway, Latin"
+msgstr ""
+
+#: functions/theme-options.php:330
+msgid "Inter, Latin"
+msgstr ""
+
+#: functions/theme-options.php:331
+msgid "Ubuntu, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:332
+msgid "Ubuntu, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:333
+msgid "Roboto, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:334
+msgid "Roboto, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:335
+msgid "Roboto Condensed, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:336
+msgid "Roboto Condensed, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:337
+msgid "Roboto Slab, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:338
+msgid "Roboto Slab, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:339
+msgid "Playfair Display, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:340
+msgid "Playfair Display, Latin / Cyrillic"
+msgstr ""
+
+#: functions/theme-options.php:341
+msgid "Open Sans, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:342
+msgid "Open Sans, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:343
+msgid "PT Serif, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:344
+msgid "PT Serif, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:345
+msgid "Arial"
+msgstr ""
+
+#: functions/theme-options.php:346
+msgid "Georgia"
+msgstr ""
+
+#: functions/theme-options.php:347
+msgid "Verdana"
+msgstr ""
+
+#: functions/theme-options.php:348
+msgid "Tahoma"
+msgstr ""
+
+#: functions/theme-options.php:355
+msgid "Layout Box Max-width"
+msgstr ""
+
+#: functions/theme-options.php:356
+msgid "Max-width of the layout box"
+msgstr ""
+
+#: functions/theme-options.php:369
+msgid "Content Max-width"
+msgstr ""
+
+#: functions/theme-options.php:370
+msgid "Max-width of the content"
+msgstr ""
+
+#: functions/theme-options.php:383
+msgid "Header Logo Image Max-height"
+msgstr ""
+
+#: functions/theme-options.php:384
+msgid ""
+"Your logo image should have the double height of this to be high resolution"
+msgstr ""
+
+#: functions/theme-options.php:397
+msgid "Dark Theme"
+msgstr ""
+
+#: functions/theme-options.php:398
+msgid "Use dark instead of light base"
+msgstr ""
+
+#: functions/theme-options.php:406
+msgid "Light/Dark Theme Toggle"
+msgstr ""
+
+#: functions/theme-options.php:407
+msgid "Do not use with dark theme enabled"
+msgstr ""
+
+#: functions/theme-options.php:415
+msgid "Invert Dark Logo Color"
+msgstr ""
+
+#: functions/theme-options.php:416
+msgid "Change color for the logo in dark mode"
+msgstr ""
+
+#: functions/theme-options.php:424
+msgid "Box Border Radius"
+msgstr ""
+
+#: functions/theme-options.php:425
+msgid "Change radius of the layout box."
+msgstr ""
+
+#: functions/theme-options.php:438
+msgid "Primary Accent"
+msgstr ""
+
+#: functions/theme-options.php:446
+msgid "Background Color"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/page-title.php:19
+msgid "Search result"
+msgstr ""
+
+#: inc/page-title.php:21
+msgid "Search results"
+msgstr ""
+
+#: inc/page-title.php:26
+msgid "For the term"
+msgstr ""
+
+#: inc/page-title.php:28
+msgid "Please try another search:"
+msgstr ""
+
+#: inc/page-title.php:36
+msgid "Error 404."
+msgstr ""
+
+#: inc/page-title.php:36
+msgid "Page not found!"
+msgstr ""
+
+#: inc/page-title.php:38
+msgid ""
+"The page you are trying to reach does not exist, or has been moved. Please "
+"use the menus or the search box to find what you are looking for."
+msgstr ""
+
+#: inc/post-nav.php:3
+msgid "Next"
+msgstr ""
+
+#: inc/post-nav.php:4
+msgid "Previous"
+msgstr ""
+
+#: inc/related-posts.php:6
+msgid "You may also like..."
+msgstr ""
+
+#: searchform.php:3
+msgid "To search type and hit enter"
+msgstr ""
+
+#: single.php:27
+msgid "Pages:"
+msgstr ""
+
+#: single.php:34
+msgid "Tags:"
+msgstr ""
