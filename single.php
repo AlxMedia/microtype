@@ -16,7 +16,9 @@
 				<div class="entry-meta">
 					<span class="entry-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></span>
 					<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
-						<span class="entry-comments"><i class="far fa-comment"></i><a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></span>
+						<?php $number = get_comments_number( $post->ID ); if ( $number > 0 ) { ?>
+							<span class="entry-comments"><i class="far fa-comment"></i><a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></span>
+						<?php } ?>
 					<?php endif; ?>
 					<span class="entry-author"><i class="far fa-user"></i><?php the_author_posts_link(); ?></span>
 				</div>

@@ -133,6 +133,7 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .entry a,
 .entry a:hover,
 #theme-toggle i,
+.box-comments,
 .alx-tab .tab-item-category a,
 .alx-posts .post-item-category a,
 .alx-tab li:hover .tab-item-title a,

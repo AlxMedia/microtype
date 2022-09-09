@@ -866,6 +866,9 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .box-date { flex-shrink: 0; margin-left: auto; font-size: 14px; font-weight: 600; color: rgba(0,0,0,0.3); }
 .box-thumbnail { width: 60px; flex-shrink: 0; margin-right: 20px; position: relative; }
 .box-thumbnail img { width: 60px; height: 60px; border-radius: 100%; display: block; }
+.box-comments { opacity: 0; color: #1da9ff; font-size: 30px; width: 30px; position: absolute; right: 0; top: -12px; margin-left: 10px; transition: all 0.3s ease; }
+.box-comments span { font-size: 12px; font-weight: 600; color: #fff; line-height: 26px; position: absolute; right: 0; top: 0; width: 100%; text-align: center; transition: all 0.3s ease; }
+.box a:hover .box-comments { opacity: 1; right: 20px; }
 
 .slick-image-slide-wrapper { position: relative; }
 .slick-image-slide { background: #333; }

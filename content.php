@@ -13,5 +13,11 @@
 		<h2 class="box-title"><?php the_title(); ?></h2>
 		<span class="box-date"><?php the_time( get_option('date_format') ); ?></span>
 		
+		<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
+			<?php $number = get_comments_number( $post->ID ); if ( $number > 0 ) { ?>
+				<div class="box-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></div>
+			<?php } ?>
+		<?php endif; ?>
+		
 	</a>
 </article>

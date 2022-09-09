@@ -111,7 +111,7 @@ Kirki::add_field( 'microtype_theme', array(
 Kirki::add_field( 'microtype_theme', array(
 	'type'			=> 'switch',
 	'settings'		=> 'comment-count',
-	'label'			=> esc_html__( 'Single - Comment Count', 'microtype' ),
+	'label'			=> esc_html__( 'Comment Count', 'microtype' ),
 	'section'		=> 'blog',
 	'default'		=> 'on',
 ) );
