@@ -509,15 +509,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 /* ------------------------------------ */
 #wrapper { border-top: 1px solid #fff; }
 #wrapper-inner { background: #fff; box-shadow: 40px 80px 80px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto 120px; border-radius: 60px; }
-.main { }
-.main-inner { display: flex; position: relative; min-height: 600px; /* instead of sticky footer */ }
 .content { margin: 0 auto; position: relative; width: 100%; box-sizing: border-box; }
-.content-inner { margin: 0 30px; }
-.pad { padding: 30px 50px; }
-
-/* boxed */
-body.boxed { background: #e5e5e5; }
-.boxed #wrapper { background: #fff; max-width: 1380px; margin: 0 auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
 
 /*  base : grid
 /* ------------------------------------ */

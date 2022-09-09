@@ -1,7 +1,5 @@
-					</div><!--/.main-inner-->
-				</div><!--/.main-->
-			</div><!--/#page-->
-		</div><!--/#wrapper-inner-->
+		</div><!--/#page-->
+	</div><!--/#wrapper-inner-->
 
 	<div class="clear"></div>
 	

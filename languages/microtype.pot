@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Microtype\n"
-"POT-Creation-Date: 2022-09-09 16:29+0200\n"
+"POT-Creation-Date: 2022-09-09 17:06+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -39,23 +39,23 @@ msgstr ""
 msgid "Pingbacks"
 msgstr ""
 
-#: footer.php:65
+#: footer.php:63
 msgid "Y"
 msgstr ""
 
-#: footer.php:65
+#: footer.php:63
 msgid "All Rights Reserved."
 msgstr ""
 
-#: footer.php:71
+#: footer.php:69
 msgid "Powered by"
 msgstr ""
 
-#: footer.php:71
+#: footer.php:69
 msgid "https://wordpress.org"
 msgstr ""
 
-#: footer.php:71
+#: footer.php:69
 msgid "Theme by"
 msgstr ""
 

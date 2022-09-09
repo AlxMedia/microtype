@@ -88,7 +88,7 @@
 			<div id="curve-inner"></div>
 		</div>
 		
-	</div>
+	</div><!--/#subheader-->
 
 	<div id="wrapper-inner">
 		
@@ -104,7 +104,7 @@
 					</div>
 				<?php endif; ?>
 			
-			</div>
+			</div><!--/#box-header-top-->
 			
 			<div id="box-header-over">
 			
@@ -124,10 +124,8 @@
 					</div>
 				<?php endif; ?>
 			
-			</div>
+			</div><!--/#box-header-over-->
 			
-		</div>
+		</div><!--/#box-header-->
 		
-		<div id="page">			
-			<div class="main">
-				<div class="main-inner group">
+		<div id="page">
