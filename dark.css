@@ -136,7 +136,6 @@ body:where(.dark) .post-nav li a strong { color: rgba(255,255,255,0.4); }
 body:where(.dark) .post-nav li a span { color: #fff; }
 body:where(.dark) .post-nav li a:hover span { color: #fff; }
 body:where(.dark) .post-nav li a:hover i { color: #fff; }
-body:where(.dark) .post-nav li.next a { border-left: 1px solid rgba(255,255,255,0.08); }
 
 @media only screen and (max-width: 719px) {
 	body:where(.dark) .post-nav li.previous { border-top: 1px solid rgba(255,255,255,0.08); }
