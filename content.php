@@ -20,4 +20,11 @@
 		<?php endif; ?>
 		
 	</a>
+	
+	<?php if (get_theme_mod('excerpt-length','0') != '0'): ?>
+		<div class="box-excerpt">
+			<?php the_excerpt(); ?>
+		</div>
+	<?php endif; ?>
+
 </article>

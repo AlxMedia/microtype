@@ -23,6 +23,9 @@ body:where(.dark) .box a:hover { background: rgba(0,0,0,0.12); }
 body:where(.dark) .box-title { color: #fff; }
 body:where(.dark) .box-date { color: rgba(255,255,255,0.3); }
 body:where(.dark) .box a:hover .thumb-icon { color: #1f2128; }
+body:where(.dark) .box-excerpt { background: rgba(0,0,0,0.12); color: rgba(255,255,255,0.4); border-top: 1px solid rgba(255,255,255,0.06); }
+body:where(.dark) .box-excerpt:before { border-bottom-color: #1b1d23; }
+body:where(.dark) .box-excerpt:after { border-bottom-color: #282a30; }
 body:where(.dark) .front-widgets { background: rgba(0,0,0,0.12); border-top: 1px solid rgba(255,255,255,0.06); }
 
 /* header */

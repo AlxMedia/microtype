@@ -107,6 +107,20 @@ Kirki::add_field( 'microtype_theme', array(
 	'section'		=> 'blog',
 	'default'		=> '',
 ) );
+// Blog: Excerpt Length
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'excerpt-length',
+	'label'			=> esc_html__( 'Excerpt Length', 'microtype' ),
+	'description'	=> esc_html__( 'Max number of words. Set it to 0 to disable.', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> '0',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '100',
+		'step'	=> '1',
+	),
+) );
 // Blog: Frontpage Widgets Top
 Kirki::add_field( 'microtype_theme', array(
 	'type'			=> 'switch',
