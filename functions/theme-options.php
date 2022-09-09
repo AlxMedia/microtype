@@ -107,6 +107,24 @@ Kirki::add_field( 'microtype_theme', array(
 	'section'		=> 'blog',
 	'default'		=> '',
 ) );
+// Blog: Frontpage Widgets Top
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'frontpage-widgets-top',
+	'label'			=> esc_html__( 'Frontpage Widgets Top', 'microtype' ),
+	'description'	=> esc_html__( 'A column of widgets', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
+// Blog: Frontpage Widgets Bottom
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'frontpage-widgets-bottom',
+	'label'			=> esc_html__( 'Frontpage Widgets Bottom', 'microtype' ),
+	'description'	=> esc_html__( 'A column of widgets', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
 // Blog: Comment Count
 Kirki::add_field( 'microtype_theme', array(
 	'type'			=> 'switch',

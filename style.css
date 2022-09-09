@@ -893,11 +893,9 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .slick-image-slide-dots .slick-dots li button { background: rgba(0,0,0,0.2); height: 10px; width: 10px; border-radius: 100%; text-indent: -9999px; overflow: hidden; }
 .slick-image-slide-dots .slick-dots .slick-active button { background: rgba(0,0,0,0.7); }
 
-.front-widgets { margin: 20px auto 0; max-width: 820px; padding: 0 40px; position: relative; z-index: 20; }
-.front-widget-col { width: 50%; float: left; }
-.front-widget-inner { margin-right: 30px; }
+.front-widgets { padding: 0 40px; position: relative; background: rgba(0,0,0,0.04); border-top: 1px solid rgba(0,0,0,0.06); }
+.front-widget-inner {  }
 .front-widgets .widget { padding-top: 20px; padding-bottom: 20px; }
-.front-widgets .widget > h3 {  }
 
 
 /* ------------------------------------------------------------------------- *
