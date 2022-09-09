@@ -128,8 +128,8 @@
 	
 	/* profile */
 	#profile-inner { padding-left: 20px; padding-right: 20px; }
-	#profile-name { font-size: 20px; }
-	#profile-description { font-size: 14px; }
+	#profile-name { font-size: 17px; }
+	#profile-description { font-size: 12px; }
 	
 	/* box */
 	.box a { display: block; border-left: 0; padding: 20px; }
