@@ -148,7 +148,10 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .alx-tabs-nav li.active a,
 .wp-pagenavi a:hover, 
 .wp-pagenavi a:active, 
-.wp-pagenavi span.current { background: '.esc_attr( get_theme_mod('color-1') ).'; }
+.wp-pagenavi span.current,
+.author-bio .bio-avatar:after,
+.commentlist li.bypostauthor > .comment-body:after,
+.commentlist li.comment-author-admin > .comment-body:after { background: '.esc_attr( get_theme_mod('color-1') ).'; }
 				'."\n";
 			}
 			// background color
