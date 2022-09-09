@@ -197,19 +197,19 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform input[type="number"]:focus, 
 .themeform select:focus,
 .themeform textarea:focus { border-color: #ddd; color: #333; -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1); box-shadow: 0 0 3px rgba(0,0,0,0.1); }
-.themeform label .required { color: #333; }
+.themeform label .required { color: #1da9ff; }
 .themeform input[type="button"],
 .themeform input[type="reset"],
 .themeform input[type="submit"],
 .themeform button[type="button"],
 .themeform button[type="reset"],
-.themeform button[type="submit"] { background: #333; color: #fff; padding: 8px 14px; font-weight: 600; display: inline-block; border: none; cursor: pointer; -webkit-border-radius: 3px; border-radius: 3px; }
+.themeform button[type="submit"] { background: #1da9ff; color: #fff; font-size: 13px; padding: 10px 14px; font-weight: 800; text-transform: uppercase; display: inline-block; border: none; cursor: pointer; border-radius: 3px; }
 .themeform input[type="button"]:hover,
 .themeform input[type="reset"]:hover,
 .themeform input[type="submit"]:hover,
 .themeform button[type="button"]:hover,
 .themeform button[type="reset"]:hover,
-.themeform button[type="submit"]:hover { background: #333; }
+.themeform button[type="submit"]:hover {  }
 
 .themeform.searchform div { position: relative; }
 .themeform.searchform div input { background: #fff; padding-left: 26px; line-height: 20px; }
@@ -869,6 +869,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .box-comments { opacity: 0; color: #1da9ff; font-size: 30px; width: 30px; position: absolute; right: 0; top: -12px; margin-left: 10px; transition: all 0.3s ease; }
 .box-comments span { font-size: 12px; font-weight: 600; color: #fff; line-height: 26px; position: absolute; right: 0; top: 0; width: 100%; text-align: center; transition: all 0.3s ease; }
 .box a:hover .box-comments { opacity: 1; right: 20px; }
+.box a:hover .thumb-icon { background: #fff; color: #333; }
 
 .slick-image-slide-wrapper { position: relative; }
 .slick-image-slide { background: #333; }
@@ -1018,7 +1019,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 
 /*  single : post-nav
 /* ------------------------------------ */
-.post-nav { background: #f4f4f4; border-radius: 3px; margin-bottom: 40px; }
+.post-nav { background: #f4f4f4; border-radius: 3px; margin-bottom: 60px; }
 .post-nav li { width: 50%; display: inline; float: left; }
 .post-nav li a { position: relative; display: block; padding-top: 20px; padding-bottom: 20px; }
 .post-nav li i { color: rgba(0,0,0,0.4); font-size: 18px; position: absolute; top: 50%; margin-top: -10px; }
@@ -1227,7 +1228,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 
 .comment-tabs { margin-bottom: 30px; }
 .comment-tabs li { float: left; }
-.comment-tabs li a { background: #f4f4f4; border-radius: 3px; font-size: 13px; text-transform: uppercase; font-weight: 800; padding: 10px 14px; margin-bottom: 4px; display: block; color: #aaa; }
+.comment-tabs li a { background: #f4f4f4; border-radius: 3px; font-size: 13px; text-transform: uppercase; font-weight: 800; padding: 8px 14px; margin-bottom: 4px; display: block; color: #aaa; }
 .comment-tabs li:first-child a { margin-right: 4px; }
 .comment-tabs li a:hover { color: #333; }
 .comment-tabs li span { background-color: #fff; padding: 0 6px; margin-left: 8px; -webkit-border-radius: 4px; border-radius: 4px; }

@@ -3,7 +3,7 @@
 <?php if ( $related->have_posts() ): ?>
 
 <h4 class="heading">
-	<i class="fas fa-hand-point-right"></i><?php esc_html_e('You may also like...','microtype'); ?>
+	<?php esc_html_e('You may also like...','microtype'); ?>
 </h4>
 
 <ul class="related-posts group">

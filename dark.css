@@ -22,6 +22,7 @@ body:where(.dark) .box a { border-top: 1px solid rgba(255,255,255,0.06); }
 body:where(.dark) .box a:hover { background: rgba(0,0,0,0.12); }
 body:where(.dark) .box-title { color: #fff; }
 body:where(.dark) .box-date { color: rgba(255,255,255,0.3); }
+body:where(.dark) .box a:hover .thumb-icon { color: #1f2128; }
 body:where(.dark) .front-widgets { background: rgba(0,0,0,0.12); border-top: 1px solid rgba(255,255,255,0.06); }
 
 /* header */
@@ -106,13 +107,13 @@ body:where(.dark) .themeform input[type="reset"],
 body:where(.dark) .themeform input[type="submit"],
 body:where(.dark) .themeform button[type="button"],
 body:where(.dark) .themeform button[type="reset"],
-body:where(.dark) .themeform button[type="submit"] { background: #fff; color: #000; }
+body:where(.dark) .themeform button[type="submit"] {  }
 body:where(.dark) .themeform input[type="button"]:hover,
 body:where(.dark) .themeform input[type="reset"]:hover,
 body:where(.dark) .themeform input[type="submit"]:hover,
 body:where(.dark) .themeform button[type="button"]:hover,
 body:where(.dark) .themeform button[type="reset"]:hover,
-body:where(.dark) .themeform button[type="submit"]:hover { background: #fff; }
+body:where(.dark) .themeform button[type="submit"]:hover {  }
 
 body:where(.dark) .themeform.searchform div input { background: #1f2128; }
 
