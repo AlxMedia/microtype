@@ -990,7 +990,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .post-tags span { font-size: 14px; color: #999; display: inline-block; margin: 0 7px 0 0; }
 .post-tags a { background: #f4f4f4; display: inline-block; white-space: nowrap; font-size: 14px; color: #999; padding: 1px 7px; margin: 0 5px 6px 0;
 -webkit-border-radius: 3px; border-radius: 3px; }
-.post-tags a:hover { background-color: #ddd; color: #777; }
+.post-tags a:hover { background-color: #1da9ff; color: #fff; }
 
 /*  single : author bio
 /* ------------------------------------ */
@@ -1232,7 +1232,8 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .comment-tabs li a:hover { color: #333; }
 .comment-tabs li span { background-color: #fff; padding: 0 6px; margin-left: 8px; -webkit-border-radius: 4px; border-radius: 4px; }
 .comment-tabs li i { margin-right: 6px; }
-.comment-tabs li.active a { color: #333; border-bottom-color: #333; }
+.comment-tabs li.active a { background: #1da9ff; color: #fff; }
+.comment-tabs li.active span { background: rgba(0,0,0,0.15); }
 
 .commentlist, .pinglist { margin-bottom: 20px; }
 .commentlist li, .pinglist li { padding-left: 60px; font-size: 14px; line-height: 22px; font-weight: 400; }

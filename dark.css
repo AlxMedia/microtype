@@ -118,8 +118,8 @@ body:where(.dark) .themeform.searchform div input { background: #1f2128; }
 
 /* post tags */
 body:where(.dark) .post-tags span { color: rgba(255,255,255,0.5); }
-body:where(.dark) .post-tags a { background: rgba(255,255,255,0.1); }
-body:where(.dark) .post-tags a:hover { background-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.8); }
+body:where(.dark) .post-tags a { background: #181a20; }
+body:where(.dark) .post-tags a:hover { color: rgba(255,255,255,0.8); }
 
 /* author bio */
 body:where(.dark) .author-bio { background-color: #181a20; }
