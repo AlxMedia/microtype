@@ -59,7 +59,9 @@
 		</article>
 
 	<?php endwhile; ?>
-
+	
+	<?php get_template_part('inc/featured'); ?>
+	
 </div><!--/.content-->
 
 <?php get_sidebar(); ?>

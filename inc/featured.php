@@ -12,7 +12,7 @@ $featured = new WP_Query(
 );
 ?>
 
-<?php if ( is_home() && !is_paged() && ( get_theme_mod('featured-posts-count','3') !='0') && $featured->have_posts() ): // Show if posts are not 0 ?>
+<?php if ( ( get_theme_mod('featured-posts-count','3') !='0') && $featured->have_posts() ): // Show if posts are not 0 ?>
 
 <div class="slick-featured-wrap-outer">	
 	<div class="slick-featured-wrap">
