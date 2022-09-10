@@ -130,7 +130,7 @@ jQuery(document).ready(function($) {
 		  settings: {
 			arrows: true,
 			centerMode: true,
-			centerPadding: '60px',
+			centerPadding: '100px',
 			slidesToShow: 1
 		  }
 		},
@@ -139,7 +139,7 @@ jQuery(document).ready(function($) {
 		  settings: {
 			arrows: true,
 			centerMode: true,
-			centerPadding: '60px',
+			centerPadding: '100px',
 			slidesToShow: 1
 		  }
 		},
@@ -148,7 +148,7 @@ jQuery(document).ready(function($) {
 		  settings: {
 			arrows: true,
 			centerMode: true,
-			centerPadding: '40px',
+			centerPadding: '60px',
 			slidesToShow: 1
 		  }
 		},
