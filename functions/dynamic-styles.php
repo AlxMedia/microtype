@@ -169,6 +169,8 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .slick-featured-nav .slick-next:hover,
 .slick-featured-nav .slick-prev:focus,
 .slick-featured-nav .slick-next:focus { background: '.esc_attr( get_theme_mod('color-1') ).'; }
+
+.slick-featured .slick-dots .slick-active button { border-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 				'."\n";
 			}
 			// background color

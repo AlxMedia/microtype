@@ -33,6 +33,7 @@ body:where(.dark) .box-featured a { border: 1px solid rgba(255,255,255,0.06); }
 body:where(.dark) .box-featured a:hover { background: rgba(0,0,0,0.12); }
 body:where(.dark) .box-featured-title { color: #fff; }
 body:where(.dark) .box-featured-date { color: rgba(255,255,255,0.3); }
+body:where(.dark) .slick-featured .slick-dots li button { background: rgba(255,255,255,0.08); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
 
 /* header */
 body:where(.dark) .site-title a { color: #fff; }

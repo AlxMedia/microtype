@@ -1,6 +1,7 @@
 <?php $format = get_post_format(); ?>
 
-<div class="box-featured-wrap">
+<article id="post-<?php the_ID(); ?>" <?php post_class('box-featured-wrap'); ?>>
+
 	<div class="box-featured">
 		<a href="<?php the_permalink(); ?>" rel="bookmark" class="<?php if ( has_post_thumbnail() ) echo 'box-featured-thumbnail-enabled'; ?>">
 			
@@ -24,4 +25,5 @@
 			
 		</a>
 	</div>
-</div>
+	
+</article>

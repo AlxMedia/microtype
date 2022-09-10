@@ -148,7 +148,7 @@ Kirki::add_field( 'microtype_theme', array(
 	'label'			=> esc_html__( 'Featured Post Count', 'microtype' ),
 	'description'	=> esc_html__( 'Max number of featured posts to display. Set it to 0 to disable', 'microtype' ),
 	'section'		=> 'blog',
-	'default'		=> '4',
+	'default'		=> '3',
 	'choices'     => array(
 		'min'	=> '0',
 		'max'	=> '10',
