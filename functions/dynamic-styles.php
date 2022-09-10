@@ -139,7 +139,8 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .alx-tab li:hover .tab-item-title a,
 .alx-tab li:hover .tab-item-comment a,
 .alx-posts li:hover .post-item-title a,
-.themeform label .required { color: '.esc_attr( get_theme_mod('color-1') ).'; }				
+.themeform label .required,
+.box-featured-comments { color: '.esc_attr( get_theme_mod('color-1') ).'; }				
 .page-title-inner:before,
 #theme-toggle-btn:before,
 #profile-image,
@@ -160,7 +161,14 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .themeform input[type="submit"],
 .themeform button[type="button"],
 .themeform button[type="reset"],
-.themeform button[type="submit"] { background: '.esc_attr( get_theme_mod('color-1') ).'; }
+.themeform button[type="submit"],
+.box-featured a:before,
+.slick-featured-nav .slick-prev,
+.slick-featured-nav .slick-next,
+.slick-featured-nav .slick-prev:hover,
+.slick-featured-nav .slick-next:hover,
+.slick-featured-nav .slick-prev:focus,
+.slick-featured-nav .slick-next:focus { background: '.esc_attr( get_theme_mod('color-1') ).'; }
 				'."\n";
 			}
 			// background color

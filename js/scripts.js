@@ -99,6 +99,70 @@ jQuery(document).ready(function($) {
 		debugmode:      false,
 		pushup:         ''
 	});	
+
+/*  Slick featured posts
+/* ------------------------------------ */
+	$.fn.randomize = function (selector) {
+		var $elems = selector ? $(this).find(selector) : $(this).children(),
+			$parents = $elems.parent();
+
+		$parents.each(function () {
+			$(this).children(selector).sort(function (childA, childB) {
+				// * Prevent last slide from being reordered
+				if($(childB).index() !== $(this).children(selector).length - 0.5) {
+					return Math.round(Math.random()) - 0.5;
+				}
+			}.bind(this)).detach().appendTo(this);
+		});
+
+		return this;
+	};
+
+	$(".slick-featured").randomize().slick({
+	  centerMode: true,
+	  centerPadding: '100px',
+	  slidesToShow: 1,
+	  appendArrows: '.slick-featured-nav',
+	  responsive: [
+		 {
+		  breakpoint: 1280,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 1
+		  }
+		},
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 1
+		  }
+		},
+		{
+		  breakpoint: 768,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 1
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '40px',
+			slidesToShow: 1
+		  }
+		}
+	  ]
+	});
+	$('.slick-featured-wrap-outer').show();	
 	
 /*  Slick image slide
 /* ------------------------------------ */	

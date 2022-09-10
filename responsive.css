@@ -143,6 +143,10 @@
 	.box-excerpt:before,
 	.box-excerpt:after { left: 34px; }
 	
+	.box-featured a { min-height: 70px; }
+	.box-featured-title { font-size: 15px; }
+	.box-featured-date { font-size: 12px; }
+	
 	/* sharrre */
 	.sharrre-footer .sharrre .count { display: none; }
 	

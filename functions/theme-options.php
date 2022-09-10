@@ -121,6 +121,40 @@ Kirki::add_field( 'microtype_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Blog: Featured Posts Include
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'featured-posts-include',
+	'label'			=> esc_html__( 'Featured Posts', 'microtype' ),
+	'description'	=> esc_html__( 'Exclude featured posts from the content below', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
+// Blog: Featured Category
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'select',
+	'settings'		=> 'featured-category',
+	'label'			=> esc_html__( 'Featured Category', 'microtype' ),
+	'description'	=> esc_html__( 'By not selecting a category, it will show your latest post(s) from all categories', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> '',
+	'choices'		=> Kirki_Helper::get_terms( 'category' ),
+	'placeholder'	=> esc_html__( 'Select a category', 'microtype' ),
+) );
+// Blog: Featured Post Count
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'featured-posts-count',
+	'label'			=> esc_html__( 'Featured Post Count', 'microtype' ),
+	'description'	=> esc_html__( 'Max number of featured posts to display. Set it to 0 to disable', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> '4',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '10',
+		'step'	=> '1',
+	),
+) );
 // Blog: Frontpage Widgets Top
 Kirki::add_field( 'microtype_theme', array(
 	'type'			=> 'switch',
