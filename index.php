@@ -6,7 +6,7 @@
 		<?php get_template_part('inc/page-title'); ?>
 	<?php endif; ?>
 	
-	<?php get_template_part('inc/featured'); ?>
+	<?php if ( get_theme_mod( 'featured-position', 'below' ) == 'above' ) { get_template_part('inc/featured'); } ?>
 	
 	<?php get_template_part('inc/front-widgets-top'); ?>
 	
@@ -17,6 +17,7 @@
 		<?php endwhile; ?>
 		
 		<?php get_template_part('inc/front-widgets-bottom'); ?>
+		<?php if ( get_theme_mod( 'featured-position', 'below' ) == 'below' ) { get_template_part('inc/featured'); } ?>
 		<?php get_template_part('inc/pagination'); ?>
 		
 	<?php endif; ?>

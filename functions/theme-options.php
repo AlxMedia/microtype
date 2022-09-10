@@ -121,6 +121,19 @@ Kirki::add_field( 'microtype_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Blog: Featured Position
+Kirki::add_field( 'microtype_theme', array(
+	'type'			=> 'radio',
+	'settings'		=> 'featured-position',
+	'label'			=> esc_html__( 'Featured Posts Position', 'microtype' ),
+	'description'	=> esc_html__( 'Where to show the featured posts slider', 'microtype' ),
+	'section'		=> 'blog',
+	'default'		=> 'below',
+	'choices'		=> array(
+		'above'		=> esc_html__( 'Above posts', 'microtype' ),
+		'below'		=> esc_html__( 'Below posts', 'microtype' ),
+	),
+) );
 // Blog: Featured Posts Include
 Kirki::add_field( 'microtype_theme', array(
 	'type'			=> 'switch',
