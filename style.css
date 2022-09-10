@@ -873,7 +873,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .box-featured a:hover:before { visibility: visible; -webkit-transform: translate3d(0,0,0) scaleX(1); transform: translate3d(0,0,0) scaleX(1); }
 .box-featured a.box-featured-thumbnail-enabled { padding-left: 100px; }
 .box-featured-thumbnail { position: absolute; width: 60px; top: 20px; left: 20px; }
-.box-featured-thumbnail img { border-radius: 100%; }
+.box-featured-thumbnail img { width: 60px; height: 60px; border-radius: 100%; }
 .box-featured-title { color: #333; font-size: 18px; line-height: 1.5em; font-weight: 600; overflow: hidden; display: block; -webkit-line-clamp: 2; display: box; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; white-space: normal; }
 .box-featured-date { font-size: 14px; font-weight: 600; color: rgba(0,0,0,0.3); }
 .box-featured-comments { opacity: 0; color: #1da9ff; font-size: 30px; width: 30px; position: absolute; right: 0; top: -12px; margin-left: 10px; transition: all 0.3s ease; }
