@@ -155,7 +155,6 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after,
 .post-tags a:hover,
-.comment-tabs li.active a,
 .themeform input[type="button"],
 .themeform input[type="reset"],
 .themeform input[type="submit"],

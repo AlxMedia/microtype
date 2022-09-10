@@ -1267,8 +1267,7 @@ body.dark #theme-toggle-btn:before { border-color: #1a1a1a; top: 2px; left: 34px
 .comment-tabs li a:hover { color: #333; }
 .comment-tabs li span { background-color: #fff; padding: 0 6px; margin-left: 8px; -webkit-border-radius: 4px; border-radius: 4px; }
 .comment-tabs li i { margin-right: 6px; }
-.comment-tabs li.active a { background: #1da9ff; color: #fff; }
-.comment-tabs li.active span { background: rgba(0,0,0,0.15); }
+.comment-tabs li.active a { color: #333; }
 
 .commentlist, .pinglist { margin-bottom: 20px; }
 .commentlist li, .pinglist li { padding-left: 60px; font-size: 14px; line-height: 22px; font-weight: 400; }
