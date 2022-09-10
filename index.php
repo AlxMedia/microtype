@@ -17,8 +17,10 @@
 		<?php endwhile; ?>
 		
 		<?php get_template_part('inc/front-widgets-bottom'); ?>
-		<?php if ( get_theme_mod( 'featured-position', 'below' ) == 'below' ) { get_template_part('inc/featured'); } ?>
+		
 		<?php get_template_part('inc/pagination'); ?>
+		
+		<?php if ( get_theme_mod( 'featured-position', 'below' ) == 'below' ) { get_template_part('inc/featured'); } ?>
 		
 	<?php endif; ?>
 	
