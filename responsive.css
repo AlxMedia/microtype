@@ -107,7 +107,8 @@
 	.gallery-caption { display: none; }
 	
 	/* base */
-	.page-title {  }
+	.page-title { padding-left: 30px; padding-right: 30px; }
+	.page-title-inner:before { left: -30px; }
 	.page-title h1, 
 	.page-title h2,
 	.page-title h3, 
@@ -137,7 +138,7 @@
 	a.box-thumbnail-enabled,
 	a.box-thumbnail-enabled:hover { padding-left: 100px; }
 	.box-thumbnail { margin-left: -80px; margin-right: 0; float: left; }
-	.box-title { font-size: 16px; }
+	.box-title { font-size: 16px; margin-right: 0; }
 	.box-date { font-size: 12px; }
 	.box-excerpt { font-size: 14px; }
 	.box-excerpt:before,

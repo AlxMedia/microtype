@@ -111,7 +111,6 @@ body:where(.dark) .themeform input[type="tel"]:focus,
 body:where(.dark) .themeform input[type="number"]:focus, 
 body:where(.dark) .themeform select:focus,
 body:where(.dark) .themeform textarea:focus { border-color: rgba(255,255,255,0.14); color: rgba(255,255,255,0.7); }
-body:where(.dark) .themeform label .required { color: #fff; }
 body:where(.dark) .themeform input[type="button"],
 body:where(.dark) .themeform input[type="reset"],
 body:where(.dark) .themeform input[type="submit"],

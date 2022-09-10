@@ -1,6 +1,7 @@
-		</div><!--/#page-->
-	</div><!--/#wrapper-inner-->
-
+			</div><!--/#page-->
+		</div><!--/#wrapper-inner-->
+	</div><!--/#wrapper-outer-->
+	
 	<div class="clear"></div>
 	
 	<footer id="footer">

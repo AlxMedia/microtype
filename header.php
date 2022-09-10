@@ -89,43 +89,44 @@
 		</div>
 		
 	</div><!--/#subheader-->
-
-	<div id="wrapper-inner">
-		
-		<div id="box-header">
+	
+	<div id="wrapper-outer">
+		<div id="wrapper-inner">
 			
-			<div id="box-header-top">
-		
-				<?php if ( get_header_image() ) : ?>
-					<div class="site-header">
-						<a href="<?php echo esc_url( home_url('/') ); ?>" rel="home">
-							<img class="site-image" src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-						</a>
-					</div>
-				<?php endif; ?>
+			<div id="box-header">
+				
+				<div id="box-header-top">
 			
-			</div><!--/#box-header-top-->
-			
-			<div id="box-header-over">
-			
-				<?php if ( get_theme_mod('profile-image') || get_theme_mod('profile-name') || get_theme_mod('profile-description') ): ?>
-					<div id="profile" class="group">
-						<div id="profile-inner" class="group">
-							<?php if ( get_theme_mod('profile-image') ): ?>
-								<div id="profile-image"><img src="<?php echo esc_html( get_theme_mod('profile-image') ); ?>" alt="" /></div>
-							<?php endif; ?>
-							<?php if ( get_theme_mod('profile-name') ): ?>
-								<div id="profile-name"><?php echo esc_html( get_theme_mod('profile-name') ); ?></div>
-							<?php endif; ?>
-							<?php if ( get_theme_mod('profile-description') ): ?>
-								<div id="profile-description"><?php echo wp_kses_post( get_theme_mod('profile-description') ); ?></div>
-							<?php endif; ?>
+					<?php if ( get_header_image() ) : ?>
+						<div class="site-header">
+							<a href="<?php echo esc_url( home_url('/') ); ?>" rel="home">
+								<img class="site-image" src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+							</a>
 						</div>
-					</div>
-				<?php endif; ?>
+					<?php endif; ?>
+				
+				</div><!--/#box-header-top-->
+				
+				<div id="box-header-over">
+				
+					<?php if ( get_theme_mod('profile-image') || get_theme_mod('profile-name') || get_theme_mod('profile-description') ): ?>
+						<div id="profile" class="group">
+							<div id="profile-inner" class="group">
+								<?php if ( get_theme_mod('profile-image') ): ?>
+									<div id="profile-image"><img src="<?php echo esc_html( get_theme_mod('profile-image') ); ?>" alt="" /></div>
+								<?php endif; ?>
+								<?php if ( get_theme_mod('profile-name') ): ?>
+									<div id="profile-name"><?php echo esc_html( get_theme_mod('profile-name') ); ?></div>
+								<?php endif; ?>
+								<?php if ( get_theme_mod('profile-description') ): ?>
+									<div id="profile-description"><?php echo wp_kses_post( get_theme_mod('profile-description') ); ?></div>
+								<?php endif; ?>
+							</div>
+						</div>
+					<?php endif; ?>
+				
+				</div><!--/#box-header-over-->
+				
+			</div><!--/#box-header-->
 			
-			</div><!--/#box-header-over-->
-			
-		</div><!--/#box-header-->
-		
-		<div id="page">
+			<div id="page">

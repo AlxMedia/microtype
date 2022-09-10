@@ -157,7 +157,7 @@ jQuery(document).ready(function($) {
 		  settings: {
 			arrows: true,
 			centerMode: true,
-			centerPadding: '20px',
+			centerPadding: '10px',
 			slidesToShow: 1
 		  }
 		}
