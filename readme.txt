@@ -84,5 +84,5 @@ Content images
 
 == Changelog ==
 
-= 1.0.0 - 2022-09-08 =
+= 1.0.0 - 2022-09-11 =
 * Initial release
