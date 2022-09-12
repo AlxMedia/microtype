@@ -84,5 +84,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.1 - 2022-09-12 =
+* Added border radius to blur-overlay
+* Updated screenshot
+
 = 1.0.0 - 2022-09-11 =
 * Initial release

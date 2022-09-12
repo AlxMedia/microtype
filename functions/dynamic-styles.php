@@ -124,7 +124,8 @@ if ( ! function_exists( 'microtype_dynamic_css' ) ) {
 			if ( get_theme_mod('box-border-radius','60') != '60' ) {
 				$styles .= '
 #wrapper-inner { border-radius: '.esc_attr( get_theme_mod('box-border-radius') ).'px; }
-#box-header-top { border-radius: '.esc_attr( get_theme_mod('box-border-radius') ).'px '.esc_attr( get_theme_mod('box-border-radius') ).'px 0 0; }
+#box-header-top,
+#profile-inner { border-radius: '.esc_attr( get_theme_mod('box-border-radius') ).'px '.esc_attr( get_theme_mod('box-border-radius') ).'px 0 0; }
 				'."\n";
 			}
 			// primary accent
