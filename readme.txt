@@ -86,6 +86,7 @@ Content images
 
 = 1.0.2 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 1.0.1 - 2022-09-12 =
 * Added border radius to blur-overlay
