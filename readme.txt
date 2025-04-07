@@ -8,7 +8,7 @@ Tags: portfolio, photography, blog, one-column, custom-colors, custom-menu, feat
 
 == Description ==
 
-Microtype is a flexible and fresh looking personal microblog theme with plenty of options. It is optimized for all devices and comes with either a light or dark style. You can also enable a light/dark theme toggle switch in the header and set to any accent color you wish. Demo: http://demo.alx.media/x/?theme=Microtype
+Microtype is a flexible and fresh looking personal microblog theme with plenty of options. It is optimized for all devices and comes with either a light or dark style. You can also enable a light/dark theme toggle switch in the header and set to any accent color you wish. Demo: https://demo.agnarson.com/?theme=Microtype
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Microtype is a flexible and fresh looking personal microblog theme with plenty o
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
