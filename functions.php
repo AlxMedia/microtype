@@ -730,3 +730,16 @@ function microtype_skip_link_focus_fix() {
 	<?php
 }
 add_action( 'wp_print_footer_scripts', 'microtype_skip_link_focus_fix' );
+
+
+/*  Kirki deprecated fix
+/* ------------------------------------ */
+function microtype_kirki_config( $config ) {
+
+	if ( isset( $config['compiler'] ) ) {
+		unset( $config['compiler'] );
+	}
+
+	return $config;
+}
+add_filter( 'kirki/config', 'microtype_kirki_config', 999 );
